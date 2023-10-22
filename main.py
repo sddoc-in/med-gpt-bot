@@ -1,7 +1,7 @@
 import openai
 
 ## API key
-openai.api_key = "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"
+openai.api_key = "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" #disabled
 
 flag = True
 
@@ -50,5 +50,8 @@ while flag:
     
 
   except:
+    print("\n\n")
     print("Invalid input")
-    continue
+     exit_flag = input("Do you want to exit? (y/n): ")
+    if exit_flag == 'n':
+        flag = False
