@@ -1,6 +1,6 @@
 # med-gpt-bot
 This is a python chat bot which used CHATGPT API to provide medical answers.
-
+# Connect on whatsapp +917460021388  we connect for further dicussion
 # Requirements
 1. Python 3.6+
 2. CHATGPT API key
